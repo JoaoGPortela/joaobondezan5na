@@ -6,7 +6,9 @@ import plotly.express as px
 
 # Função para criar conexão com o banco de dados
 def get_db_connection():
-    return create_engine("string de conexão")
+    return create_engine(
+        "pos  tgresql://auladehoje_user:q21T1q6pApkYsMSwHkekDqrziI7IIzQ6@dpg-cr6h5prv2p9s7393ba0g-a.oregon-postgres.render.com/auladehoje"
+    )
 
 
 # Função para criar tabela no PostgreSQL
